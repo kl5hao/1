@@ -111,10 +111,11 @@ A-->C
 ![image](http://note.youdao.com/favicon.ico)
 ![图片下方的图注](图片地址)
 ```
-##九、插入链接
+## 九、插入链接
 [link](http://note.youdao.com/)
 ```
 源代码
 [link](http://note.youdao.com/)
 [链接名](链接地址)
 ```
+Wiki也有MarkDown Edit 哦！
