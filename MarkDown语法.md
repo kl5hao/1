@@ -93,6 +93,11 @@ graph BT 从下到上
 graph LR 从左到右
 graph RL 从右到左
 ```
+graph TD
+A-->B
+A-->C
+```
+```
 ###这里用#替代反单引号`哈
 graph TD
 A-->B
