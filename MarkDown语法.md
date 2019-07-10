@@ -40,18 +40,18 @@
 ==高亮==(有道云可用)
 ```
 ## 四、图表
-title1|title2|title3
----|---|---|
-row1col1||row1col3
-||
-row3col1|row3col2|row3col3
+title1|title2|title3|居左|居中|局右
+---|---|---|:--|:--:|--:
+row1col1||row1col3|左|中|右
+|||||
+row3col1|row3col2|row3col3|||
 ```
 源代码
-title1|title2|title3
----|---|---|
-row1col1||row1col3
-||
-row3col1|row3col2|row3col3
+title1|title2|title3|居左|居中|局右
+---|---|---|:--|:--:|--:
+row1col1||row1col3|左|中|右
+|||||
+row3col1|row3col2|row3col3|||
 ```
 ## 五、分割线
 分割线,3个及以上的-或*
@@ -64,6 +64,7 @@ row3col1|row3col2|row3col3
 
 >>>多级引用,一直加">"就行了。
 ```
+源代码
 分割线,3个及以上的-或*
 ---
 ----
@@ -87,6 +88,21 @@ row3col1|row3col2|row3col3
    1. 二级
       1. 三级
          1. 四级
+```
+源代码
+无序序列，*\-\+任意，注意空格隔开。
+* 1
+- 2
++ 3
+有序序列
+1. 一级
+   1. 二级
+   2. 二级
+2. 一级
+   1. 二级
+      1. 三级
+         1. 四级
+```
 ## 七、流程图(有道云可用)
 graph TB 从上到下
 graph BT 从下到上
@@ -98,6 +114,7 @@ A-->B
 A-->C
 ```
 ```
+源代码
 ###这里用#替代反单引号`哈
 graph TD
 A-->B
@@ -118,4 +135,4 @@ A-->C
 [link](http://note.youdao.com/)
 [链接名](链接地址)
 ```
-Wiki也有MarkDown Edit 哦！
+Wiki也有MarkDown Edit，不过有道云预览更快。
